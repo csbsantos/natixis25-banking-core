@@ -1,0 +1,27 @@
+name: Hello Natixis2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: código Natixis 
+      run: echo "Obter código da Natixis"
+      -name: dependências
+      run: echo "Instalar dependências"
+      -name: teste
+      run: echo "Executar testes"
+
+  Deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: código Natixis 
+      run: echo "Obter código da Natixis"
+      -name: dependências
+      run: echo "Instalar dependências"
+      -name: teste
+      run: echo "Executar testes"
